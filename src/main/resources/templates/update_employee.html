@@ -11,7 +11,7 @@
 	<div class="container">
 		<h1>Team-2 Management System</h1>
 		<hr>
-		<h2>Update Team-2</h2>
+		<h2>Update Team-2 Member</h2>
 
 		<form action="#" th:action="@{/saveEmployee}" th:object="${employee}"
 			method="POST">
@@ -25,12 +25,12 @@
 				
 				<input type="text" th:field="*{email}" class="form-control mb-4 col-4">
 				
-				<button type="submit" class="btn btn-info col-2"> Update Employee</button>
+				<button type="submit" class="btn btn-info col-2"> Update Team-2 Member</button>
 		</form>
 		
 		<hr>
 		
-		<a th:href = "@{/}"> Back to Employee List</a>
+		<a th:href = "@{/}"> Back to Team-2 List</a>
 	</div>
 </body>
 </html>
