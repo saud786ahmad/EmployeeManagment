@@ -12,25 +12,25 @@
 	<div class="container">
 		<h1>Team-2 Management System</h1>
 		<hr>
-		<h2>Save Team-2</h2>
+		<h2>Save Team-2 Member</h2>
 
 		<form action="#" th:action="@{/saveEmployee}" th:object="${employee}"
 			method="POST">
 			<input type="text" th:field="*{firstName}"
-				placeholder="Employee First Name" class="form-control mb-4 col-4">
+				placeholder="Team-2 First Name" class="form-control mb-4 col-4">
 				
 				<input type="text" th:field="*{lastName}"
-				placeholder="Employee Last Name" class="form-control mb-4 col-4">
+				placeholder="Team-2 Last Name" class="form-control mb-4 col-4">
 				
 				<input type="text" th:field="*{email}"
-				placeholder="Employee Email" class="form-control mb-4 col-4">
+				placeholder="Team-2 Email" class="form-control mb-4 col-4">
 				
-				<button type="submit" class="btn btn-info col-2"> Save Employee</button>
+				<button type="submit" class="btn btn-info col-2"> Save Team-2 Member</button>
 		</form>
 		
 		<hr>
 		
-		<a th:href = "@{/}"> Back to Employee List</a>
+		<a th:href = "@{/}"> Back to Team-2 List</a>
 	</div>
 </body>
 </html>
